@@ -3,15 +3,16 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaEnvelope } from "react-icons/fa
 function Footer() {
   return (
     <footer className="w-full bg-black text-gray-400">
-      <div className="max-w-360 mx-auto px-8 lg:px-20 py-14">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-14">
 
-        {/* 5 Column Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
+        {/* Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
 
           {/* Logo / About */}
-          <div className="max-w-xs flex flex-col gap-5">
-           <h2 className="text-white text-2xl font-bold whitespace-nowrap">
-            CS — Ticket System </h2>
+          <div className="flex flex-col gap-5">
+            <h2 className="text-white text-2xl font-bold whitespace-nowrap">
+              CS — Ticket System
+            </h2>
             <p className="text-sm leading-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -20,7 +21,7 @@ function Footer() {
           </div>
 
           {/* Company */}
-          <div className="ml-16 flex flex-col gap-5">
+         <div className="flex flex-col gap-5 lg:pl-16">
             <h3 className="text-white font-semibold">Company</h3>
             <ul className="flex flex-col gap-3 text-sm">
               <li><a href="#" className="hover:text-white transition">About Us</a></li>
@@ -52,17 +53,17 @@ function Footer() {
           {/* Social Links */}
           <div className="flex flex-col gap-5">
             <h3 className="text-white font-semibold">Social Links</h3>
-            <div className="flex flex-col gap-3 text-sm">
-              <a href="#" className="flex items-center gap-3 hover:text-white transition">
-                <FaTwitter size={16} /> @CS — Ticket System
+            <div className="flex flex-wrap gap-3 text-sm">
+              <a href="#" className="flex items-center gap-2 hover:text-white transition">
+                <FaTwitter size={16} /> @CS_Ticket
               </a>
-              <a href="#" className="flex items-center gap-3 hover:text-white transition">
-                <FaLinkedinIn size={16} /> @CS — Ticket System
+              <a href="#" className="flex items-center gap-2 hover:text-white transition">
+                <FaLinkedinIn size={16} /> @CS_Ticket
               </a>
-              <a href="#" className="flex items-center gap-3 hover:text-white transition">
-                <FaFacebookF size={16} /> @CS — Ticket System
+              <a href="#" className="flex items-center gap-2 hover:text-white transition">
+                <FaFacebookF size={16} /> @CS_Ticket
               </a>
-              <a href="mailto:support@cst.com" className="flex items-center gap-3 hover:text-white transition">
+              <a href="mailto:support@cst.com" className="flex items-center gap-2 hover:text-white transition">
                 <FaEnvelope size={16} /> support@cst.com
               </a>
             </div>
