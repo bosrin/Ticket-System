@@ -6,15 +6,15 @@
 const element = <h1>হ্যালো, React!</h1>;
 
 ২. Props:
-Parent কম্পোনেন্ট থেকে Child কম্পোনেন্টে প্রেরণ করা হয়
-শুধুমাত্র parent কম্পোনেন্ট দ্বারা পরিবর্তন করা যায়
-ডেটা passing ও configuration এর জন্য 
+Parent কম্পোনেন্ট থেকে Child কম্পোনেন্টে প্রেরণ করা হয়।
+শুধুমাত্র parent কম্পোনেন্ট দ্বারা পরিবর্তন করা যায়।
+ডেটা passing ও configuration এর জন্য।
 Immutable.
 
 State:
-কম্পোনেন্টের নিজের অভ্যন্তরীণ ডেটা
-কম্পোনেন্ট নিজের মধ্যে পরিবর্তন করতে পারে
-UI এর dynamic behavior নিয়ন্ত্রণের জন্য
+কম্পোনেন্টের নিজের অভ্যন্তরীণ ডেটা।
+কম্পোনেন্ট নিজের মধ্যে পরিবর্তন করতে পারে ।
+UI এর dynamic behavior নিয়ন্ত্রণের জন্য ।
 Mutable.
 
 ৩. useState হল একটি React হুক যা State পরিচালনা করার জন্য ব্যবহৃত হয়। এটি ফাংশনাল কম্পোনেন্টের ভিতরে state তৈরি এবং পরিবর্তনের সুযোগ দেয়।
@@ -30,9 +30,9 @@ function Counter() {
     </div>
   );
 }
-count = state এর বর্তমান মান
-setCount = state update করার ফাংশন
-useState(0) = initial value 0
+count = state এর বর্তমান মান।
+setCount = state update করার ফাংশন।
+useState(0) = initial value 0.
 
 ৪. React এ state sharing করার জন্য সাধারণত নিম্নলিখিত পদ্ধতি ব্যবহৃত হয়:
 
@@ -67,5 +67,5 @@ function Button() {
   return <button onClick={handleClick}>Click Me</button>;
 }
 
-i. onClick হল ইভেন্ট
-ii. handleClick হল ফাংশন যা কল হবে ইভেন্ট ঘটলে
+i. onClick হল ইভেন্।ট
+ii. handleClick হল ফাংশন যা কল হবে ইভেন্ট ঘটলে ।
